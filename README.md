@@ -1,7 +1,5 @@
 # placeholder-craft-cli
 A simple CLI tool to generate placeholder images for your projects.
-![image](https://github.com/macaroni10y/placeholder-craft-cli/assets/56068155/2ad43067-822e-4f80-83f2-5355c0a1a02d)
-
 
 ## Installation
 Now, you cannot get this package from npm.
