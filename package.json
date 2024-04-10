@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "placeholder-craft": "./index.js"
+    "phcraft": "./index.js"
   },
   "author": "",
   "license": "MIT",
