@@ -1,15 +1,12 @@
 {
-  "name": "dummy-image",
+  "name": "placeholder-craft-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "a cli tool to generate placeholder images",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
     "phcraft": "./index.js"
   },
-  "author": "",
+  "author": "macaroni10y",
   "license": "MIT",
   "dependencies": {
     "canvas": "^2.11.2",
