@@ -1,5 +1,8 @@
 # placeholder-craft-cli
 A simple CLI tool to generate placeholder images for your projects.
+## example
+![placeholder](https://github.com/macaroni10y/placeholder-craft-cli/assets/56068155/b01b477e-1e52-4a35-bd5f-8e6627474d0b)
+
 
 ## Installation
 You can install the package globally by running the following command.
