@@ -1,6 +1,6 @@
 {
   "name": "placeholder-craft-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a cli tool to generate placeholder images",
   "main": "src/index.js",
   "bin": {
@@ -11,5 +11,21 @@
   "dependencies": {
     "canvas": "^2.11.2",
     "yargs": "^17.7.2"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macaroni10y/placeholder-craft-cli.git"
+  },
+  "keywords": [
+    "placeholder",
+    "dummy-image"
+  ],
+  "bugs": {
+    "url": "https://github.com/macaroni10y/placeholder-craft-cli/issues"
+  },
+  "homepage": "https://github.com/macaroni10y/placeholder-craft-cli#readme"
 }
