@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 
-const {createCanvas} = require('canvas');
-const fs = require('fs');
 const yargs = require('yargs');
+const {createPlaceholderImage} = require("./createPlaceholderImage");
 
 const argv = yargs
     .option('width', {
@@ -37,21 +36,5 @@ const argv = yargs
     })
     .help()
     .argv;
-
-const createPlaceholderImage = ({width, height, bgColor, textColor, filename}) => {
-    const canvas = createCanvas(width, height);
-    const ctx = canvas.getContext('2d');
-    ctx.fillStyle = bgColor;
-    ctx.fillRect(0, 0, width, height);
-    ctx.fillStyle = textColor;
-    const fontSize = Math.min(width, height) / 2;
-    ctx.font = `${fontSize}px Arial`;
-    ctx.textAlign = 'center';
-    ctx.textBaseline = 'middle';
-    ctx.fillText(`${width} * ${height}`, width / 2, height / 2, width - 20);
-
-    const buffer = canvas.toBuffer('image/png');
-    fs.writeFileSync(filename, buffer);
-};
 
 createPlaceholderImage(argv);
