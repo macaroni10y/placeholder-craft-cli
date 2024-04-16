@@ -11,7 +11,7 @@ npm ci
 ## Usage
 You can run the following command to generate a placeholder image.
 ```shell
-node index.js --width 500 --height 500 --filename hoge.png
+node src/index.js --width 500 --height 500 --filename hoge.png
 ```
 ### Options
 - `--width` (required): The width of the image.
