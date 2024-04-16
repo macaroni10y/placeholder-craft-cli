@@ -2,9 +2,9 @@
   "name": "placeholder-craft-cli",
   "version": "1.0.0",
   "description": "a cli tool to generate placeholder images",
-  "main": "index.js",
+  "main": "src/index.js",
   "bin": {
-    "phcraft": "./index.js"
+    "phcraft": "src/index.js"
   },
   "author": "macaroni10y",
   "license": "MIT",
