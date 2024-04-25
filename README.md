@@ -1,7 +1,7 @@
 # placeholder-craft-cli
-![NPM Downloads](https://img.shields.io/npm/dt/placeholder-craft-cli)
-![GitHub License](https://img.shields.io/github/license/macaroni10y/placeholder-craft-cli)
-![Author](https://img.shields.io/badge/Author-macaroni10y-pink)
+[![NPM Downloads](https://img.shields.io/npm/dt/placeholder-craft-cli)](https://www.npmjs.com/package/placeholder-craft-cli)
+[![GitHub License](https://img.shields.io/github/license/macaroni10y/placeholder-craft-cli)](https://github.com/macaroni10y/placeholder-craft-cli/blob/main/LICENSE)
+[![Author](https://img.shields.io/badge/Author-macaroni10y-pink)](https://github.com/macaroni10y)
 
 A simple CLI tool to generate placeholder images for your projects.
 ## example
