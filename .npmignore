@@ -1,5 +1,6 @@
 .idea/
 src/
+dist/*.test.js
 .gitignore
 .tool-versions
 biome.json
