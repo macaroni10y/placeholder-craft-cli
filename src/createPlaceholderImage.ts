@@ -1,6 +1,15 @@
-const {createCanvas} = require("canvas");
-const fs = require("fs");
-const createPlaceholderImage = ({width, height, bgColor = 'grey', textColor = 'white', filename = 'placeholder.png'}) => {
+import {createCanvas} from "canvas";
+import fs from "fs";
+
+export interface PlaceholderImageOptions {
+    width: number;
+    height: number;
+    bgColor?: string;
+    textColor?: string;
+    filename?: string;
+}
+
+export const createPlaceholderImage = ({width, height, bgColor = 'grey', textColor = 'white', filename = 'placeholder.png'}: PlaceholderImageOptions):void => {
     if (width <= 0 || height <= 0) {
         throw new Error('Width and height must be greater than 0');
     }
@@ -18,4 +27,4 @@ const createPlaceholderImage = ({width, height, bgColor = 'grey', textColor = 'w
     const buffer = canvas.toBuffer('image/png');
     fs.writeFileSync(filename, buffer);
 };
-module.exports = {createPlaceholderImage};
+

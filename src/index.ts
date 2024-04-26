@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
-const yargs = require('yargs');
-const {createPlaceholderImage} = require("./createPlaceholderImage");
+import yargs from "yargs";
+import {createPlaceholderImage, PlaceholderImageOptions} from "./createPlaceholderImage";
+
 
 const argv = yargs
     .option('width', {
@@ -35,6 +36,6 @@ const argv = yargs
         default: 'placeholder.png',
     })
     .help()
-    .argv;
+    .parseSync() as PlaceholderImageOptions;
 
 createPlaceholderImage(argv);

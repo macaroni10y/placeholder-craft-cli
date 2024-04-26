@@ -1,5 +1,5 @@
-const fs = require('fs');
-const {createPlaceholderImage} = require('./createPlaceholderImage');
+import fs from 'fs';
+import { createPlaceholderImage } from './createPlaceholderImage';
 
 jest.mock('fs', () => ({
     writeFileSync: jest.fn(),
@@ -7,7 +7,7 @@ jest.mock('fs', () => ({
 
 describe('createPlaceholderImage function', () => {
     beforeEach(() => {
-        fs.writeFileSync.mockClear();
+        (fs.writeFileSync as jest.Mock).mockClear();
     });
     it('should create an image with specified dimensions and colors', () => {
         createPlaceholderImage({width: 100, height: 50, bgColor: 'blue', textColor: 'white', filename: 'test.png'});
