@@ -1,0 +1,11 @@
+.github
+.idea/
+src/
+dist/*.test.js
+.gitignore
+.tool-versions
+biome.json
+jest.config.js
+package-lock.json
+tsconfig.json
+*.png
