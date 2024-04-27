@@ -7,7 +7,7 @@ jest.mock("node:fs", () => ({
 
 describe("createPlaceholderImage function", () => {
 	beforeEach(() => {
-		(fs.writeFileSync as jest.Mock).mockClear()
+		(fs.writeFileSync as jest.Mock).mockClear();
 	});
 	it("should create an image with specified dimensions and colors", () => {
 		createPlaceholderImage({
