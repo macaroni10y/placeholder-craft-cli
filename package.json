@@ -1,6 +1,6 @@
 {
 	"name": "placeholder-craft-cli",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "a cli tool to generate placeholder images",
 	"main": "dist/index.js",
 	"bin": {
