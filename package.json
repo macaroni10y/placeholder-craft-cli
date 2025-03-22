@@ -1,6 +1,6 @@
 {
 	"name": "placeholder-craft-cli",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "a cli tool to generate placeholder images",
 	"main": "dist/index.js",
 	"bin": {
@@ -9,7 +9,7 @@
 	"author": "macaroni10y",
 	"license": "MIT",
 	"dependencies": {
-		"canvas": "^2.11.2",
+		"canvas": "^3.1.0",
 		"yargs": "^17.7.2"
 	},
 	"devDependencies": {
